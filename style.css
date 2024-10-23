@@ -1,19 +1,19 @@
 html {
-  height: 100%;
+  height: 100%; /*The amount of screen that is being taken up*/
   width: 100%;
-  background-color: lightblue;
+  background-color: lightblue;/*the background color*/
 }
 
 h2 {
-  text-align: center;
+  text-align: center;/*The alignment of the text*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
 nav {
   background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
+  color: black;/*The color of the text*/
+  padding: 5px;/*The size of the text*/
+  text-align: center;/*The alignment of it*/
 }
 
 ul {
@@ -25,22 +25,22 @@ ul {
 }
 
 li {
-  float: left;
+  float: left; /*Where the text is on the blue banner*/
 }
 
 li a {
-  display: block;
+  display: block; 
   color: white;
-  text-align: center;
+  text-align: center; /*The London word details*/
   padding: 14px 16px;
   text-decoration: none;
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
 .city1 {
-  background-color: tomato;
+  background-color: tomato; /*The creation of the second header*/
   color: white;
-  padding: 10px;
+  padding: 10px; 
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
